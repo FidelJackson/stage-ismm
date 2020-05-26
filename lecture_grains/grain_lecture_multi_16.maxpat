@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1399.0, 920.0 ],
+		"rect" : [ 42.0, 85.0, 1399.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 101.0, 710.0, 33.0, 22.0 ],
+					"text" : "read"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "message",
@@ -173,6 +185,7 @@
 								"box" : 								{
 									"id" : "obj-55",
 									"ignoreclick" : 1,
+									"int" : 1,
 									"maxclass" : "gswitch",
 									"numinlets" : 3,
 									"numoutlets" : 1,
@@ -850,12 +863,12 @@
 					"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_followmouse" : 0,
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 18540.0,
+					"cursor_position" : 23060.0,
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 18530.0 ],
+					"domain_bounds" : [ 0.0, 23050.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1926,7 +1939,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 47.999999999999829, 149.0, 124.000000000000171, 22.0 ],
 									"text" : "angles_stable"
 								}
@@ -1949,8 +1962,8 @@
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.999999999999943, 149.0, 124.000000000000171, 22.0 ],
 									"text" : "angles_stable"
 								}
@@ -3742,6 +3755,7 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-212",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -3879,7 +3893,7 @@
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 6.478260869565217,
+					"cursor_position" : 6.909698996655518,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
@@ -4130,6 +4144,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-33", 0 ]
@@ -4263,7 +4284,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "grain_audio.maxpat",
-				"bootpath" : "~/Documents/Stage/Patch Max/lecture_grains",
+				"bootpath" : "D:/Travail/Stage/patchs/git rep/stage-ismm/lecture_grains",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4271,51 +4292,38 @@
 , 			{
 				"name" : "camu.triggermode.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patches/lib",
-				"patcherrelativepath" : "../../../Max 8/Library/catart-mubu-master/patches/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "angles_stable.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/riot_custom",
-				"patcherrelativepath" : "../../../Max 8/Library/riot_custom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "riotbitalino.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/riot-bitalino",
-				"patcherrelativepath" : "../../../Max 8/Library/riot-bitalino",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.concat~.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.concat~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "orientation.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
