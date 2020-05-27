@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 79.0, 1399.0, 920.0 ],
+		"rect" : [ 910.0, 90.0, 676.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -590,13 +590,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-48",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 44.0, 301.859044999999981, 179.0, 35.0 ],
-													"text" : "domain reset, domain bounds 0. 9., view descr bounds 0. 9."
+													"patching_rect" : [ 44.0, 301.859044999999981, 326.0, 22.0 ],
+													"text" : "domain reset, domain bounds 0. 8., view descr bounds 0. 8."
 												}
 
 											}
@@ -610,7 +609,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 224.666666666666742, 139.859044999999981, 580.0, 49.0 ],
+													"patching_rect" : [ 224.666666666666742, 139.859044999999981, 580.0, 50.0 ],
 													"text" : "interface scatterplot, domainalign, paramdisplayrange fixedwidth 1 20, paramdisplayrange fixedheight 1 20, paramcol fixedwidth PeriodicityMean, paramcol fixedheight PeriodicityMean, paramcol x FrequencyMean, paramcol y EnergyMean, paramcol fillcolor nodeindex, paramcol edgecolor nodeindex"
 												}
 
@@ -886,12 +885,12 @@
 					"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_followmouse" : 0,
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 7840.0,
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 1.0 ],
+					"domain_bounds" : [ 0.0, 8860.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1398,7 +1397,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 390.0, 261.0, 407.0, 45.0 ],
+									"patching_rect" : [ 390.0, 261.0, 407.0, 46.0 ],
 									"text" : "mubu.record acquisition raw @predef yes @samplerate 100 @matrixcols 2 @maxsize 120000 @info gui \"interface multiwave, bounds 1. 7., shape envelope, colormode rainbow\""
 								}
 
@@ -1937,8 +1936,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 153.0, 290.0, 236.999999999999943, 22.0 ],
-									"text" : "pak 0. 0."
+									"patching_rect" : [ 153.0, 290.0, 61.0, 22.0 ],
+									"text" : "pack 0. 0."
 								}
 
 							}
@@ -1960,7 +1959,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 47.999999999999829, 149.0, 124.000000000000171, 22.0 ],
 									"text" : "angles_stable"
 								}
@@ -1983,8 +1982,8 @@
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.999999999999943, 149.0, 124.000000000000171, 22.0 ],
 									"text" : "angles_stable"
 								}
@@ -3776,6 +3775,7 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-212",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -3913,12 +3913,12 @@
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 0.032609954755069,
+					"cursor_position" : 5.846153846153846,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 9.0 ],
+					"domain_bounds" : [ 0.0, 8.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -3968,7 +3968,7 @@
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
-					"toolbar_visible" : 1,
+					"toolbar_visible" : 0,
 					"useplaceholders" : 1,
 					"varname" : "editor",
 					"windresize" : 0
@@ -4327,7 +4327,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "grain_audio.maxpat",
-				"bootpath" : "~/Documents/Stage/Git rep/stage-ismm/lecture_grains",
+				"bootpath" : "D:/Travail/Stage/patchs/git rep/stage-ismm/lecture_grains",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4335,51 +4335,38 @@
 , 			{
 				"name" : "camu.triggermode.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patches/lib",
-				"patcherrelativepath" : "../../../../Max 8/Library/catart-mubu-master/patches/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "angles_stable.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/riot_custom",
-				"patcherrelativepath" : "../../../../Max 8/Library/riot_custom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "riotbitalino.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/riot-bitalino",
-				"patcherrelativepath" : "../../../../Max 8/Library/riot-bitalino",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.concat~.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.concat~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "orientation.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
