@@ -72,10 +72,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 704.0, 344.0, 74.0 ],
+					"patching_rect" : [ 303.0, 704.0, 348.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 566.166666666666742, 676.5, 458.0, 60.0 ],
+					"presentation_rect" : [ 566.166666666666742, 676.5, 461.0, 60.0 ],
 					"text" : "Mouvements : \n6) les 2 mouvements à réaliser sont des extensions du bras accompagnées d'une rotation du poignet, pour le mouvement 1 la paume est dirigée en bas au départ puis en haut à la fin, inversement pour le deuxième mouvement."
 				}
 
@@ -205,7 +205,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 101.0, 704.0, 100.0, 50.0 ],
-					"pic" : "CosimaMini1:/Users/victorparedes/Documents/Stage/Git rep/stage-ismm/description.png",
+					"pic" : "description.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 31.666666666666686, 573.0, 396.0, 227.0 ]
 				}
