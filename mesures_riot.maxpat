@@ -39,13 +39,89 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "newobj",
+					"fontsize" : 16.0,
+					"id" : "obj-43",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 791.666666666666742, 93.5, 58.0, 22.0 ],
-					"text" : "loadbang"
+					"numoutlets" : 0,
+					"patching_rect" : [ 87.666666666666686, 738.0, 196.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 263.666666666666686, 547.0, 164.0, 24.0 ],
+					"text" : "Position d'arrivée"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 93.166666666666686, 738.0, 196.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 51.666666666666686, 547.0, 164.0, 24.0 ],
+					"text" : "Position de départ"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 303.0, 704.0, 344.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 566.166666666666742, 676.5, 458.0, 60.0 ],
+					"text" : "Mouvements : \n6) les 2 mouvements à réaliser sont des extensions du bras accompagnées d'une rotation du poignet, pour le mouvement 1 la paume est dirigée en bas au départ puis en haut à la fin, inversement pour le deuxième mouvement."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.105882352941176, 0.105882352941176, 0.105882352941176, 0.71 ],
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 101.0, 742.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 114.166666666666686, 631.0, 109.0, 20.0 ],
+					"text" : "paume vers le bas",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.105882352941176, 0.105882352941176, 0.105882352941176, 0.71 ],
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 93.166666666666686, 744.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 109.166666666666686, 749.0, 114.0, 20.0 ],
+					"text" : "paume vers le haut",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 58.0, 784.0, 689.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 566.166666666666742, 547.0, 639.0, 100.0 ],
+					"text" : "Mise en place :\n1) inscrivez l'identifiant et le port de chacun des 2 R-iot\n2) si la connexion est établie, l'angle d'intérêt reçu de chaque R-iot s'affiche\n3) accrochez les R-iot tel qu'indiqué sur les images \n4) testez un enregistrement : appuyez sur 'espace', bougez le bras, rappuyez sur 'espace' puis appuyez sur 'n'; si un tracé est apparus dans la fenêtre de droite tout est en ordre, vous pouvez commencer les enregistrements. Appuyez sur 's' pour remettre l'enregistrement à zéro, fermez simplement les fenêtres d'enregistrement qui apparaitront."
 				}
 
 			}
@@ -57,8 +133,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 843.0, 129.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 621.166666666666742, 94.0, 81.0, 20.0 ],
-					"text" : "Hide drawing"
+					"presentation_rect" : [ 618.166666666666742, 93.0, 91.0, 20.0 ],
+					"text" : "Cacher le tracé"
 				}
 
 			}
@@ -78,14 +154,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 14.0,
+					"fontsize" : 16.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 812.0, 173.0, 22.0 ],
+					"patching_rect" : [ 84.0, 738.0, 196.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 434.666666666666742, 691.0, 97.0, 22.0 ],
+					"presentation_rect" : [ 434.666666666666742, 731.0, 110.0, 24.0 ],
 					"text" : "Mouvement 2"
 				}
 
@@ -97,25 +173,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 786.0, 150.0, 20.0 ],
+					"patching_rect" : [ 93.166666666666686, 742.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 313.666666666666686, 773.0, 109.0, 20.0 ],
+					"presentation_rect" : [ 318.666666666666686, 725.0, 109.0, 20.0 ],
 					"text" : "paume vers le bas",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 759.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 114.166666666666686, 691.0, 113.0, 20.0 ],
-					"text" : "paume vers le haut"
 				}
 
 			}
@@ -126,25 +188,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.166666666666686, 892.0, 150.0, 20.0 ],
+					"patching_rect" : [ 93.166666666666686, 742.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 313.666666666666686, 662.0, 114.0, 20.0 ],
+					"presentation_rect" : [ 313.666666666666686, 605.0, 114.0, 20.0 ],
 					"text" : "paume vers le haut",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
-					"id" : "obj-28",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 865.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 114.166666666666686, 581.0, 109.0, 20.0 ],
-					"text" : "paume vers le bas"
 				}
 
 			}
@@ -165,14 +213,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 14.0,
+					"fontsize" : 16.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 839.0, 173.0, 22.0 ],
+					"patching_rect" : [ 78.0, 742.0, 196.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 434.666666666666742, 581.0, 97.0, 22.0 ],
+					"presentation_rect" : [ 434.666666666666742, 618.0, 110.0, 24.0 ],
 					"text" : "Mouvement 1"
 				}
 
@@ -2493,7 +2541,7 @@
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 4920.0 ],
+					"domain_bounds" : [ 0.0, 1.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2548,6 +2596,52 @@
 					"toolbar_visible" : 1,
 					"useplaceholders" : 1,
 					"windresize" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontface" : 1,
+					"hint" : "",
+					"id" : "obj-23",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 58.0, 122.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 31.666666666666686, 113.5, 25.0, 25.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontface" : 1,
+					"hint" : "",
+					"id" : "obj-93",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 43.0, 107.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.666666666666686, 15.0, 25.0, 25.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
 			}
@@ -2732,13 +2826,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-102", 4 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -2754,22 +2841,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "angles_stable.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/riot_custom",
-				"patcherrelativepath" : "../Documents/Max 8/Library/riot_custom",
+				"bootpath" : "~/Documents/Stage/Git rep/stage-ismm",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "riotbitalino.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/riot-bitalino",
-				"patcherrelativepath" : "../Documents/Max 8/Library/riot-bitalino",
+				"patcherrelativepath" : "../../../Max 8/Library/riot-bitalino",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Screen Shot 2020-05-22 at 12.15.31.png",
 				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../Desktop",
+				"patcherrelativepath" : "../../../../Desktop",
 				"type" : "PNG",
 				"implicit" : 1
 			}
