@@ -205,7 +205,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 101.0, 704.0, 100.0, 50.0 ],
-					"pic" : "CosimaMini1:/Users/victorparedes/Desktop/Screen Shot 2020-05-22 at 12.15.31.png",
+					"pic" : "CosimaMini1:/Users/victorparedes/Documents/Stage/Git rep/stage-ismm/description.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 31.666666666666686, 573.0, 396.0, 227.0 ]
 				}
@@ -2854,9 +2854,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Screen Shot 2020-05-22 at 12.15.31.png",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
+				"name" : "description.png",
+				"bootpath" : "~/Documents/Stage/Git rep/stage-ismm",
+				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
