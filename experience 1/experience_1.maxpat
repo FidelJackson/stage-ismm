@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 444.0, 250.0, 454.0, 504.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,13 +37,14 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 194.852559943448455, 11.307689785957336, 50.0, 20.0 ],
 					"text" : "monitor"
@@ -86,7 +87,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.0, 177.0, 100.0, 20.0 ],
 					"text" : "position d'arrivée"
@@ -99,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.0, 143.0, 107.0, 20.0 ],
 					"text" : "position de départ"
@@ -112,7 +113,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.926277468329147, 115.0, 150.0, 20.0 ],
 					"text" : "Calibration"
@@ -206,7 +207,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -239,6 +240,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-94",
@@ -615,7 +617,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.0, 227.307689785957336, 76.0, 20.0 ],
 					"text" : "R-iot control"
@@ -628,7 +630,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.999994993209839, 63.307689785957336, 37.0, 20.0 ],
 					"text" : "arm"
@@ -641,7 +643,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 16.999994993209839, 33.307689785957336, 53.0, 20.0 ],
 					"text" : "forearm"
@@ -654,7 +656,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.999994993209839, 11.307689785957336, 32.0, 20.0 ],
 					"text" : "id"
@@ -667,7 +669,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 12.0, 107.0, 20.0 ],
+					"patching_rect" : [ 16.999994993209839, 540.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 142.963136230769493, 11.307689785957336, 32.0, 20.0 ],
 					"text" : "port"
@@ -776,7 +778,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -809,6 +811,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1137,7 +1140,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
-									"midpoints" : [ 46.5, 215.0, 137.0, 215.0, 137.0, 258.0, 137.0, 258.0 ],
+									"midpoints" : [ 46.5, 212.0, 137.0, 212.0, 137.0, 258.0, 137.0, 258.0 ],
 									"order" : 0,
 									"source" : [ "obj-25", 0 ]
 								}
@@ -1190,7 +1193,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"midpoints" : [ 156.5, 215.0, 66.0, 215.0 ],
+									"midpoints" : [ 156.5, 220.0, 66.0, 220.0 ],
 									"order" : 1,
 									"source" : [ "obj-8", 0 ]
 								}
@@ -1265,12 +1268,12 @@
 					"presentation_rect" : [ 104.0, 407.200000000000045, 159.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~"
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -1427,7 +1430,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1460,6 +1463,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1661,7 +1665,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 47.999999999999829, 149.0, 124.000000000000171, 22.0 ],
 									"text" : "angles_stable"
 								}
@@ -1684,8 +1688,8 @@
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.999999999999943, 149.0, 124.000000000000171, 22.0 ],
 									"text" : "angles_stable"
 								}
@@ -2012,12 +2016,14 @@
 			}
 , 			{
 				"box" : 				{
+					"basictuning" : 440,
 					"clipheight" : 33.0,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "chainsaw.wav",
 								"filename" : "chainsaw.wav",
 								"filekind" : "audiofile",
+								"id" : "u375000831",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
@@ -2041,23 +2047,34 @@
  ]
 					}
 ,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
 					"id" : "obj-4",
 					"maxclass" : "playlist~",
+					"mode" : "basic",
 					"numinlets" : 1,
 					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 427.499994993209839, 330.799999713897705, 127.5, 34.0 ]
+					"parameter_enable" : 0,
+					"patching_rect" : [ 427.499994993209839, 330.799999713897705, 127.5, 34.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"basictuning" : 440,
 					"clipheight" : 38.199996888637543,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "amazone.wav",
 								"filename" : "amazone.wav",
 								"filekind" : "audiofile",
+								"id" : "u634000836",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
@@ -2081,12 +2098,21 @@
  ]
 					}
 ,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
 					"id" : "obj-2",
 					"maxclass" : "playlist~",
+					"mode" : "basic",
 					"numinlets" : 1,
 					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 547.393612325191498, 185.800003111362457, 144.425530672073506, 39.199996888637543 ]
+					"parameter_enable" : 0,
+					"patching_rect" : [ 547.393612325191498, 185.800003111362457, 144.425530672073506, 39.199996888637543 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
 				}
 
 			}
@@ -2138,7 +2164,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2171,6 +2197,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2567,7 +2594,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 637.999994993209839, 246.799999713897705, 256.0, 128.0 ],
-					"setfilter" : [ 0, 3, 1, 0, 0, 376.88885498046875, 1.47835636138916, 0.339821428060532, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 3, 1, 0, 0, 376.88885498046875, 0.600000143051147, 0.000099999997474, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -2982,40 +3009,29 @@
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "amazone.wav",
-				"bootpath" : "~/Documents/Stage/Git rep/stage-ismm/experience 1",
+				"bootpath" : "D:/Travail/Stage/patchs/git rep/stage-ismm/experience 1",
 				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "chainsaw.wav",
-				"bootpath" : "~/Documents/Stage/Git rep/stage-ismm/experience 1",
+				"bootpath" : "D:/Travail/Stage/patchs/git rep/stage-ismm/experience 1",
 				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "angles_stable.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/riot_custom",
-				"patcherrelativepath" : "../../../../Max 8/Library/riot_custom",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "riotbitalino.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/riot-bitalino",
-				"patcherrelativepath" : "../../../../Max 8/Library/riot-bitalino",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "orientation.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
