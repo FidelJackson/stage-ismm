@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 79.0, 1414.0, 920.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -75,8 +75,8 @@
 					"patching_rect" : [ 303.0, 704.0, 348.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 566.166666666666742, 676.5, 461.0, 60.0 ],
-					"text" : "Mouvements : \n6) les 2 mouvements à réaliser sont des extensions du bras accompagnées d'une rotation du poignet, pour le mouvement 1 la paume est dirigée en bas au départ puis en haut à la fin, inversement pour le deuxième mouvement."
+					"presentation_rect" : [ 566.166666666666742, 656.5, 461.0, 60.0 ],
+					"text" : "Mouvements : \n5) les 2 mouvements à réaliser sont des extensions du bras accompagnées d'une rotation du poignet, pour le mouvement 1 la paume est dirigée en bas au départ puis en haut à la fin, inversement pour le deuxième mouvement."
 				}
 
 			}
@@ -2596,6 +2596,52 @@
 					"toolbar_visible" : 1,
 					"useplaceholders" : 1,
 					"windresize" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontface" : 1,
+					"hint" : "",
+					"id" : "obj-12",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 88.0, 152.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 255.666666666666686, 26.0, 25.0, 25.0 ],
+					"rounded" : 60.0,
+					"text" : "4",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontface" : 1,
+					"hint" : "",
+					"id" : "obj-1",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 73.0, 137.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.666666666666686, 547.0, 25.0, 25.0 ],
+					"rounded" : 60.0,
+					"text" : "5",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
 			}
