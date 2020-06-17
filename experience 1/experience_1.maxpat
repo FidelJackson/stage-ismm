@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1852.0, 939.0 ],
+		"rect" : [ 26.0, 228.0, 704.0, 796.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -267,7 +267,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 112.782050858214006, 694.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.266666666666652, 731.878354203935601, 44.0, 44.0 ]
+					"presentation_rect" : [ 205.266666666666652, 731.878354203935601, 44.0, 44.0 ]
 				}
 
 			}
@@ -739,7 +739,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 87.038460999999984, 694.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.5, 731.878354203935601, 46.0, 46.0 ]
+					"presentation_rect" : [ 35.880768383094733, 731.878354203935601, 46.0, 46.0 ]
 				}
 
 			}
@@ -4750,7 +4750,7 @@
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 5.672240802675585,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
@@ -5084,32 +5084,26 @@
 		"dependency_cache" : [ 			{
 				"name" : "grain_audio.maxpat",
 				"bootpath" : "D:/Travail/Stage/patchs/git rep/stage-ismm/lecture_grains",
+				"patcherrelativepath" : "../lecture_grains",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patches/lib",
-				"patcherrelativepath" : "../Documents/Max 8/Library/catart-mubu-master/patches/lib",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "chainsaw.wav",
-				"bootpath" : "D:/Travail/Stage/patchs/git rep/stage-ismm/experience 1",
-				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "angles_stable.maxpat",
 				"bootpath" : "D:/Travail/Stage/patchs/git rep/stage-ismm",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "riotbitalino.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/riot-bitalino",
-				"patcherrelativepath" : "../Documents/Max 8/Library/riot-bitalino",
 				"type" : "JSON",
 				"implicit" : 1
 			}
