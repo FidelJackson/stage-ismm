@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -124,7 +125,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -157,6 +158,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -324,7 +326,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -357,6 +359,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -803,13 +806,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 445.0, 415.0, 314.0, 390.0 ],
+						"rect" : [ 42.0, 85.0, 1852.0, 939.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -836,7 +839,20 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 61.0, 304.0, 39.0, 22.0 ],
+									"text" : "atodb"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "message",
@@ -877,7 +893,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 21.0, 304.0, 46.5, 22.0 ],
+									"patching_rect" : [ 21.0, 332.0, 46.5, 22.0 ],
 									"text" : "*~"
 								}
 
@@ -903,7 +919,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 340.0, 30.0, 30.0 ]
+									"patching_rect" : [ 21.0, 366.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -955,7 +971,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "" ],
-									"patching_rect" : [ 21.0, 172.170928856239357, 263.0, 49.0 ],
+									"patching_rect" : [ 21.0, 172.170928856239357, 263.0, 50.0 ],
 									"saved_object_attributes" : 									{
 										"outputstate" : 1,
 										"resampleaudioinput" : 0
@@ -1116,17 +1132,16 @@
 		"dependency_cache" : [ 			{
 				"name" : "camu.triggermode.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patches/lib",
-				"patcherrelativepath" : "../../../Max 8/Library/catart-mubu-master/patches/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.concat~.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.concat~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
